@@ -15,6 +15,7 @@
 		76D4278321BFA9A300175850 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4278221BFA9A300175850 /* main.m */; };
 		76D4278D21BFA9A300175850 /* JZXPersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4278C21BFA9A300175850 /* JZXPersonTests.m */; };
 		76D4279821BFA9A300175850 /* JZXPersonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D4279721BFA9A300175850 /* JZXPersonUITests.m */; };
+		76D427A921BFAC3700175850 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 76D427A821BFAC3700175850 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		76D4279321BFA9A300175850 /* JZXPersonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JZXPersonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D4279721BFA9A300175850 /* JZXPersonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZXPersonUITests.m; sourceTree = "<group>"; };
 		76D4279921BFA9A300175850 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76D427A721BFAC3700175850 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		76D427A821BFAC3700175850 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		76D4277221BFA9A200175850 /* JZXPerson */ = {
 			isa = PBXGroup;
 			children = (
+				76D427A621BFAC2300175850 /* Classes */,
 				76D4277321BFA9A200175850 /* AppDelegate.h */,
 				76D4277421BFA9A200175850 /* AppDelegate.m */,
 				76D4277621BFA9A200175850 /* ViewController.h */,
@@ -130,6 +134,15 @@
 				76D4279921BFA9A300175850 /* Info.plist */,
 			);
 			path = JZXPersonUITests;
+			sourceTree = "<group>";
+		};
+		76D427A621BFAC2300175850 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				76D427A721BFAC3700175850 /* Person.h */,
+				76D427A821BFAC3700175850 /* Person.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +277,7 @@
 			files = (
 				76D4277821BFA9A200175850 /* ViewController.m in Sources */,
 				76D4278321BFA9A300175850 /* main.m in Sources */,
+				76D427A921BFAC3700175850 /* Person.m in Sources */,
 				76D4277521BFA9A200175850 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
